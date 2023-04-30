@@ -1,0 +1,65 @@
+body{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a09e1;
+}
+h1{
+    background: none;
+    text-align: center;
+    color: rgb(107, 11, 87);
+}
+
+#A{
+    
+    width: 400px;
+    height: 600px;
+
+}
+
+
+.B{
+    display: flex;
+    height: 100px;
+}
+
+
+input[type="text"]{
+
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: rgb(197, 127, 211);
+    color: rgb(215, 181, 235);
+    font-size: 1,7em;
+    padding: 0 20px;
+
+
+
+}
+
+
+button{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: rgb(197, 127, 211);
+    color: rgb(253, 254, 254);
+    font-size: 2em;
+    
+}
+
+
+button:hover{
+    background-color: #8d09097d;
+    cursor: pointer;
+}
+
+.C{
+    flex: 4;
+}
